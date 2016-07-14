@@ -42,7 +42,7 @@ LED Panel Layout in RAM
 
 // ######################################################################################################################
 // ######################################################################################################################
-#warning CHANGE THESE TO SEMI-ADJUSTABLE PIN DEFS!
+//warning CHANGE THESE TO SEMI-ADJUSTABLE PIN DEFS!
 #ifndef PARTICLE
 //Arduino pins used for the display connection
 #define PIN_DMD_nOE       9    // D9 active low Output Enable, setting this low lights all the LEDs in the selected rows. Can pwm it at very high frequency for brightness control.
